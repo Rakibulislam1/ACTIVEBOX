@@ -1,0 +1,147 @@
+@media screen and (max-width: 1200px) {
+    .header_text h1 {
+        font-size: 25px;
+    }
+
+    .header_text {
+        padding: 120px 0;
+    }
+
+    .container .add_text h4 {
+        font-size: 20px;
+    }
+
+    .container .add_text p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 1025px) {
+    .main_header {
+        height: 600px;
+    }
+
+    .nav .nav_links a {
+        margin: 0 7px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .nav img {
+        width: 100px;
+    }
+
+    .nav {
+        height: 50px;
+    }
+
+    .header_text h1 {
+        width: 100%;
+    }
+
+    .header_text p {
+        width: 100%;
+    }
+
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 1025px) {
+    .menu_buttons {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 50px;
+        color: #ffff;
+        transition: .5s;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .close_menu {
+        display: none;
+    }
+
+    .menu_buttons:hover {
+        color: #e84545;
+        text-align: center;
+    }
+
+    .container .nav .nav_links {
+        background-color: #ffff;
+        position: absolute;
+        top: 55px;
+        right: -50px;
+        width: 150px;
+        padding: 20px;
+        transition: .5s;
+        border-radius: 3px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+
+    .nav .nav_links a {
+        display: block;
+        font-size: 12px;
+        font-weight: normal;
+        margin: 20px 0;
+        color: #e84545;
+    }
+
+    .services {
+        grid-template-columns: 100%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team {
+        grid-template-columns: 100%;
+    }
+
+    .advertising {
+        grid-template-columns: 100%;
+    }
+
+    .footer_texts {
+        grid-template-columns: 100%;
+        padding: 20px;
+    }
+
+    .f_text {
+        margin: 50px 0;
+    }
+
+    .header_layer {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .gallery {
+        grid-template-columns: 100%;
+        padding: 0 10%;
+    }
+
+    .container .add_text {
+        padding: 20px 10%;
+    }
+}
